@@ -10,16 +10,18 @@ int main () {
     cin>>n;
     for (int i=1;i<=n;i++) {
         int k=0;
-        while (k!=(i-1)) {
+        while (k!=(n-i)) {
             cout<<" ";
             k++;
         }
-        for (int j=0;j<(2*i-1);j++){
-            if (j%2!=0)
-                cout<<"*";
-            else
+        for (int j=1;j<=(2*i)-1;j++){
+            if (j%2==0)
                 cout<<" ";
+            else
+                cout<<"*";
         }
         cout<<endl;
     }
 }
+
+
