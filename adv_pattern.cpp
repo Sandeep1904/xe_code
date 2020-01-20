@@ -26,6 +26,7 @@ int main () {
         cout<<endl;
     }
     cout<<endl;
+
     cout<<"The vertical pattern!"<<endl;
 
     for (int i=1;i<=n;i++){
@@ -40,7 +41,7 @@ int main () {
         cout<<endl;
 
     }
-    for (int i=1;i<=n;i++) {
+    for (int i=1;i<n;i++) {
         int k=0;
         while (k!=i) {
             cout<<" ";
@@ -49,6 +50,12 @@ int main () {
         for (int j=1;j<(n-i)+1;j++) {
             cout<<"*";
         }
+
+//        this will also work!
+//        for (int j=i;j<n;j++){
+//            cout<<"*";
+//        }
+
         cout<<endl;
 
     }
