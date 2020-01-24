@@ -3,6 +3,7 @@
 using namespace std;
 int main()
 {
+    // this code snippet prints an interesting pattern of increasing numbers
     cout<<"please enter a number";
     int n;
     cin>>n;
