@@ -15,7 +15,5 @@ int main()
     }
 
 
-//pascal's triangle
-
     return 0;
 }
