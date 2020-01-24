@@ -6,6 +6,7 @@
 using namespace std;
 
 int main() {
+    cout<<"enter a number: ";
     int arr[5] ;
     for (int i =0 ; i<5 ; i++) {
         cin>>arr[i];
@@ -15,5 +16,8 @@ int main() {
         cout<<arr[i]<<" ";
     }
     cout<<endl;
+
+//    pascal triangle using multidimensional array
+
 
 }
