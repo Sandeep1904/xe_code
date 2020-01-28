@@ -53,9 +53,14 @@ int main() {
     int arr[] = {5,4,3,2,1};
     int ar[] = {2,4,5,1,7};
     int size = 5;
-
+    cout<<"the original array for selection sort"<<endl;
     for (int i =0;i<size;i++){
         cout<<arr[i]<<" ";
+    }
+    cout<<endl;
+    cout<<"the original array for bubble sort"<<endl;
+    for (int j =0;j<size;j++){
+        cout<<ar[j]<<" ";
     }
     cout<<endl;
     selection(arr, size);
