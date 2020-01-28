@@ -20,9 +20,5 @@ int main() {
     }
     cout<<endl;
 
-//    pascal triangle using multidimensional array
-    int ar[][n] = {};
-
-
 
 }
