@@ -48,5 +48,15 @@ int main()
     for (auto it = g1.begin(); it != g1.end(); it++)
         cout<<*it<<" ";
     cout<<endl;
+
+    cout<<"reference operator [g]: g1[2] = "<<g1[2]<<endl;
+    cout<<"at: g1.at(3) = "<<g1.at(3)<<endl;
+    cout<<"front(): g1.front() = "<<g1.front()<<endl;
+    cout<<"back(): g1.back() = "<<g1.back()<<endl;
+
+    int* pos = g1.data();
+    cout<<"the first element is "<<*pos<<endl;
+
+
     return 0;
 }
