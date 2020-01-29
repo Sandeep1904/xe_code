@@ -1,6 +1,4 @@
 
-//// C++ program to illustrate the
-//// iterators in vector
 #include <iostream>
 #include <vector>
 
