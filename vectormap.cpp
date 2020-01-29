@@ -56,7 +56,7 @@ int main()
 
     int* pos = g1.data();
     cout<<"the first element is "<<*pos<<endl;
-
+// modifiers of a vector
     vector<int> v;
     v.assign(5,10);
     cout<<"the vector elements are: ";
