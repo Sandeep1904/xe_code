@@ -29,7 +29,7 @@ int main()
     for (auto ir = g1.crbegin(); ir != g1.crend(); ++ir)
         cout << *ir << " ";
     cout<<endl;
-
+// access elements on a vector
     cout<<"size: "<<g1.size();
     cout<<"\ncapacity: "<<g1.capacity();
     cout<<"\nmax_size: "<<g1.max_size();
