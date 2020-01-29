@@ -29,5 +29,24 @@ int main()
     for (auto ir = g1.crbegin(); ir != g1.crend(); ++ir)
         cout << *ir << " ";
     cout<<endl;
+
+    cout<<"size: "<<g1.size();
+    cout<<"\ncapacity: "<<g1.capacity();
+    cout<<"\nmax_size: "<<g1.max_size();
+    cout<<endl;
+
+    g1.resize(4);
+
+    cout<<"size: "<<g1.size()<<endl;
+    if (g1.empty() == false)
+        cout<<"vector is not empty"<<endl;
+    else
+        cout<<"vector is empty"<<endl;
+
+    g1.shrink_to_fit();
+    cout<<"vector elements are: "<<endl;
+    for (auto it = g1.begin(); it != g1.end(); it++)
+        cout<<*it<<" ";
+    cout<<endl;
     return 0;
 }
