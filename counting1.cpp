@@ -1,6 +1,7 @@
 //
 // Created by xesandeep on 2020-02-04.
-//
+// this is a solution of a problem on HackerRank
+// its output path is not configured, it wont show output, hange it if you want to see it.
 
 #include <bits/stdc++.h>
 
