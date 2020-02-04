@@ -25,6 +25,24 @@ vector<int> countingSort(vector<int> arr) {
 
     }
     return xe;
+
+
+
+
+//    vector<int> xes(i);
+//    int p=0;
+//    for (int a=0;a<xe.size();a++){
+//        for (int b=0;b<xe[a];b++){
+//            if (xe[a]>0){
+//                xes[p]=a;
+//                p++;
+//            }
+//            else continue;
+//        }
+//
+//
+//    }
+//    return xes;
 }
 
 int main()
